@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf);
+}
+
+@media (max-width: 600px) {
+  .lista {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 600) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 10px;
+    gap: 10px;
+
+    padding: 10px;
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Opcional: garante altura total */
+}
+
+
+
+:root {
+    --verdenormal: rgb(103, 187, 77);
+    --verdeescuro: rgb(18, 31, 14);
+}
+
+body {
+    background-color: rgb(243, 255, 177);
+}
+
+header {
+    background: linear-gradient(to bottom, var(--verdenormal), var(--verdeescuro) );
+
+    text-align: center;
+    min-height: 180px;
+    width: 100%;
+
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+
+    
+}
+
+
+header > p, #cab {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    color: white;
+}
+
+header > #cab {
+    padding: 20px
+}
+
+nav {
+    display: flex;
+    margin-left: 10px;
+    
+    gap: 11px;
+    padding: 40px 0px 10px 10px;
+
+    
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.616);
+    margin-right: 10px;
+
+    white-space: nowrap;
+
+}
+
+
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px 2px black;
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 8px 0px 8px;
+    
+}
+
+main > h2, #tema {
+    text-indent: 7px;
+    
+    color: rgb(24, 53, 27);
+    background:linear-gradient(to right, rgba(161, 247, 161, 0.603), rgb(255, 255, 255)) ;
+
+    font-family: android;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    object-fit: cover;
+
+    border: 40px solid rgb(14, 53, 14);
+    width: 700px;
+    height: 400px;
+}
+
+h4 {
+    background-color: rgb(49, 122, 49);
+    border-radius: 4px 4px 0px 0px;
+    padding: 8px;
+    margin: 0px 15px 0px 15px;
+    color: white;
+}
+
+section {
+    background-color: rgb(129, 235, 129);
+    border-radius: 0px 0px 4px 4px;
+    margin: 0px 15px 0px 15px;
+
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 8px 0px 8px;
+}
+
+.lista {
+    display: flex;
+    gap: 20px;
+   
+}
+
+ul {
+    padding: 0px 10px 0px 35px;
+}
+
+#fim {
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 8px 0px 8px;
+}
+
+footer {
+    text-align: center;
+    
+
+    color: rgba(255, 255, 255, 0.664);
+    background-color: rgb(26, 48, 26);
+
+}

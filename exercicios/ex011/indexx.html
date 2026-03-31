@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em vários dispostivos diferentes ou simplemsnte diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="fléxivel">
+    </picture>
+
+    <h1>Reproduzindo Aúdios</h1>
+    
+    
+    <!--MP3 WAV OGG-->
+
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/peido.mp3" type="audio/mpeg">
+        <source src="midia/peido.mp3" type="audio/ogg">
+        <source src="midia/peido.mp3" type="audio/wav">
+
+    </audio>
+
+</body>
+</html>

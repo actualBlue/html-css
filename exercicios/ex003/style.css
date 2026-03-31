@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+#ind {
+    text-align: center;
+}
+
+#seiba {
+    padding: 7px;
+    text-align: center;
+    background-color: rgb(141, 158, 77);    
+    border-radius: 10px;
+    
+}
+
+
+#paisagem {
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(127, 182, 255);
+    border-radius: 10px;
+}
+
+#shikimori {
+    padding: 30px;
+    text-align: center;
+    background-color: hsl(305, 100%, 80%);
+    border-radius: 10px;
+
+}
+
+#text {
+    font-style: oblique;
+    color: #fc4a68;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px;
+}

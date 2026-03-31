@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(252, 140, 140);
+        }
+
+        .especial::before {
+            content: '>';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .especial::after {
+            content: '<';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.tiktok.com/@pkzin.zxl" class="especial">Tiktok</a></li>
+        <li><a href="https://steamcommunity.com/profiles/76561198740185897">Steam</a></li>
+        <li><a href="https://open.spotify.com/user/31w4g2l76kg7tchbfbxwrebw4slm?si=gNuYSSJ4T8q5MFn4NzapLg" class="especial">Spotify</a></li>
+    </ul>
+</body>
+</html>
