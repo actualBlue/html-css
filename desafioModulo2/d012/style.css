@@ -15,9 +15,6 @@ h4 > a {
     color: white;
 }
 
-
-
-
 footer {
     background-color: rgb(2, 2, 2);
     border: 1px solid black;
@@ -35,12 +32,12 @@ footer {
 
 footer > p {
     padding: 5px;
-     font-family: "Passion One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
   text-decoration: none;
-color: white;
+  color: white;
 }
 
 footer > p > a {
@@ -127,8 +124,8 @@ main > p {
     text-indent: 10px;
     padding: 0px;
     font-family: "Sriracha", cursive;
-  font-weight: 400;
-  font-style: normal;   
+    font-weight: 400;
+    font-style: normal;   
 }
 
 .box {
@@ -194,9 +191,9 @@ main > p {
     text-indent: 10px;
     color: white;
 
-font-family: "Sriracha", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
     
 }
 
@@ -204,4 +201,3 @@ img {
     display: flex;
     margin: auto;
 }
-
