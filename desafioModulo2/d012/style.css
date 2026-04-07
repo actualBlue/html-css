@@ -3,6 +3,43 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+h4 > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-align: center;
+    width: 420px;
+    height: 25px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+footer > p {
+    padding: 5px;
+     font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  text-decoration: none;
+color: white;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+
 .passion-one-regular {
   font-family: "Passion One", sans-serif;
   font-weight: 400;
@@ -51,7 +88,7 @@ header {
 
 header > h1 {
 
-     font-family: "Passion One", sans-serif;
+    font-family: "Passion One", sans-serif;
   font-weight: 700;
   font-style: normal;
 
