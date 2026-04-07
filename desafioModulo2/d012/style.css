@@ -1,7 +1,14 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@media (max-width: 600px) {
+    header h1 {
+    font-size: 2rem;
+    }
+}
+
+
 
 h4 > a {
     text-decoration: none;
@@ -15,7 +22,8 @@ footer {
     background-color: rgb(2, 2, 2);
     border: 1px solid black;
     text-align: center;
-    width: 420px;
+    width: 100%;
+    max-width: 800px;
     height: 25px;
     margin: auto;
 
@@ -62,6 +70,8 @@ footer > p > a {
 * {    
     margin: 0px;
     padding: 0px;
+
+    overflow-x: hidden;
 }
 
 body {
@@ -78,7 +88,8 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    width: 420px;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
     height: 100px;
 
@@ -91,6 +102,8 @@ header > h1 {
     font-family: "Passion One", sans-serif;
   font-weight: 700;
   font-style: normal;
+  
+
 
 }
 
@@ -100,13 +113,14 @@ span {
 
 main {
     background-color: white;
-    width: 420px;
+    width: 100%;
+    max-width: 800px;
     margin: auto;
     padding: 40px 0px 40px 0px;
 
     border: 1px solid black;
     
-
+    
 }
 
 main > p {
@@ -118,12 +132,38 @@ main > p {
 }
 
 .box {
+    
     position: relative;
-    width: 420px;
+    width: 100%;
+    max-width: 800px;
+    height: 50vh;
+    min-height: 300px;
     margin: auto;
 
     border: 1px solid black;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
+
+.box1 {
+    background-image: url(imagens/background001.jpg)
+}
+
+.box2 {
+    background-image: url("imagens/background002.jpg");
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+
 
 .letraum {
     width: 250px;
@@ -132,6 +172,8 @@ main > p {
     top: 20px;
     left: 3px;
     
+    width: 80%;
+    max-width: 400px;
     
 }
 
@@ -141,6 +183,9 @@ main > p {
     position: absolute;
     top: 20px;
     left: 3px;
+
+    width: 80%;
+    max-width: 400px;
     
 }
 
@@ -159,16 +204,4 @@ img {
     display: flex;
     margin: auto;
 }
-
-
-
-
-#two {
-    
-}
-
-.container {
-    
-}
-
 
