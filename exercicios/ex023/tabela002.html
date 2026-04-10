@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso de tabelas grandes</title>
     <style>
+        * {
+            cursor: default;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -12,6 +15,12 @@
         table {
             width: 500px;
             border-collapse: collapse;
+
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         caption {
@@ -21,6 +30,10 @@
             padding: 10px;
             background-color: lightgray;
             border-radius: 10px 10px 0px 0px;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
 
         td, th {
@@ -37,6 +50,15 @@
             text-align: right;
         }
 
+        td:hover {
+            background-color: rgb(59, 59, 59);
+            color: white;
+        }
+
+        .num:hover {
+            background-color: rgb(59, 59, 59);
+            color: white;
+        }
        
     </style>
 </head>
