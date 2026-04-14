@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Testew</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        table {
+                width: 600px;
+                border-collapse: collapse;
+            }
+            td, th {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+
+            caption {
+                font-size: 1.4em;
+            }
+            
+            #categoria {
+                background-color: gray;
+                color: white;
+                
+            }
+
+            .destaque {
+                background-color: yellowgreen;
+            }
+
+            col.cnome {
+                background-color: rgb(28, 101, 116);
+            }
+
+            col.csexo {
+                background-color: rgb(143, 55, 55);
+            }
+
+            col.cidade {
+                background-color: yellowgreen;
+            }
+
+            col.cprof {
+                background-color: rgb(50, 205, 115);
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Repórter</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>40</td>
+            <td>Médica</td>
+        </tr>
+    </table>
+</body>
+</html>
